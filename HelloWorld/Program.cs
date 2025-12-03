@@ -9,3 +9,5 @@ friendonename = friendonename.Trim();
 string friendsMessage = $"My friends are {friendonename} and {friendtwoname}.";
 Console.WriteLine(friendsMessage);
 // if u reading this, please don't open program.cs it's dangerous.
+// string welcome = $"welcome to VScode";
+// Console.WriteLine(welcome);
