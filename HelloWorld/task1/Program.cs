@@ -1,0 +1,23 @@
+﻿// See https://aka.ms/new-console-template for more information
+string gametitle = "THE LANDS BETWEEN";
+string charname = "Vyke the Roundtable Knight";
+string charclass = "Knight";
+string weapon = "Vyke's War Spear";
+string quest = "gather all Great Runes and restore the Elden Ring";
+string storyintro = "The fallen leaves tell a story. The great Elden Ring was shattered. In our home, across the fog, the Lands Between. Now, Queen Marika the Eternal is nowhere to be found, and in the Night of the Black Knives, Godwyn the Golden was the first to perish. Soon, Marika's offspring, demigods all, claimed the shards of the Elden Ring. The mad taint of their newfound strength triggered the Shattering. A war from which no lord arose. A war leading to abandonment by the Greater Will. Arise now, ye Tarnished. Ye dead, who yet live. The call of long-lost grace speaks to us all. Hoarah Loux, chieftan of the badlands. The ever-brilliant Goldmask. Fia, the Deathbed Companion. The loathsome Dung Eater. And Sir Gideon Ofnir, the All-knowing. And one other. Whom grace would again bless. A Tarnished of no renown. Cross the fog, to the Lands Between. To stand before the Elden Ring. And become the Elden Lord.";
+Console.WriteLine("***********************************");
+Console.WriteLine(gametitle);
+Console.WriteLine("***********************************");
+Console.WriteLine("");
+Console.WriteLine("LOADING PLAYER PROFILE...");
+Console.WriteLine("");
+Console.WriteLine("HERO NAME: " + charname);
+Console.WriteLine("CLASS: " + charclass);
+Console.WriteLine("WEAPON: " + weapon);
+Console.WriteLine("QUEST: " + quest);
+Console.WriteLine("");
+Console.WriteLine("story: ");
+Console.WriteLine(storyintro);
+Console.WriteLine("");
+Console.WriteLine("***********************************");
+Console.WriteLine("PRESS ANY BOTTON TO START");
